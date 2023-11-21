@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Blog</title>
+    <link rel="stylesheet" href="modify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <section id="home" class="header">
+        <nav>
+            <a href="modify.html"><img src="images/logo.png" alt="Web Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>WELCOME TO MY PAGE</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ea placeat perspiciatis repellendus
+                ipsam, repudiandae hic maiores iure quis mollitia aliquid laboriosam neque ab, illum, sequi obcaecati
+                sapiente distinctio voluptatum!</p>
+            <a href="#" class="hero-btn">Get Started</a>
+
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <h1>BLOGS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aliquid excepturi accusantium.</p>
+
+        <div class="row">
+            <div class="blog-col">
+                <h3>Blog 1</h3>
+                <div class="imgblog">
+                    <img src="img/blog1.png" alt="">
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quo atque fugiat, et doloribus,
+                    aliquid dolorum nobis eius architecto officiis voluptates voluptatibus recusandae. Ea sunt
+                    exercitationem culpa perferendis quis! Maxime.</p>
+            </div>
+            <div class="blog-col">
+                <h3>Blog 2</h3>
+                <div class="imgblog">
+                    <img src="img/blog1.png" alt="">
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quo atque fugiat, et doloribus,
+                    aliquid dolorum nobis eius architecto officiis voluptates voluptatibus recusandae. Ea sunt
+                    exercitationem culpa perferendis quis! Maxime.</p>
+            </div>
+            <div class="blog-col">
+                <h3>Blog 3</h3>
+                <div class="imgblog">
+                    <img src="img/blog1.png" alt="">
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quo atque fugiat, et doloribus,
+                    aliquid dolorum nobis eius architecto officiis voluptates voluptatibus recusandae. Ea sunt
+                    exercitationem culpa perferendis quis! Maxime.</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="about" class="about">
+        <h1>ABOUT ME</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aliquid excepturi accusantium.</p>
+
+        <div class="row">
+            <div class="about-col">
+                <h3>Profile Information</h3>
+                <div class="imgabout">
+                    <img src="img/blog1.png" alt="">
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quo atque fugiat, et doloribus,
+                    aliquid dolorum nobis eius architecto officiis voluptates voluptatibus recusandae. Ea sunt
+                    exercitationem culpa perferendis quis! Maxime.</p>
+            </div>
+            <div class="about-col">
+                <h3>School Information</h3>
+                <div class="imgabout">
+                    <img src="img/blog1.png" alt="">
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quo atque fugiat, et doloribus,
+                    aliquid dolorum nobis eius architecto officiis voluptates voluptatibus recusandae. Ea sunt
+                    exercitationem culpa perferendis quis! Maxime.</p>
+            </div>
+        </div>
+
+    </section>
+
+    
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
